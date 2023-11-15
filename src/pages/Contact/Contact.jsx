@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div>
       <Header />
-      <section class="contact">
+      <section className="contact">
         <div className="leftBar">
           <h1>Get In Touch</h1>
           <div>
@@ -48,13 +48,13 @@ const Contact = () => {
         <div>
           <h3>Drop us a line or two</h3>
           <form className="formStyle">
-            <label for="name">Name:</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" />
-            <label for="email">Email: </label>
+            <label htmlFor="email">Email: </label>
             <input type="email" name="email" required />
-            <label for="message">Message:</label>
+            <label htmlFor="message">Message:</label>
             <textarea name="message" id="message" cols="30" rows="4"></textarea>
-            <input type="submit" value="Submit" class="button" />
+            <input type="submit" value="Submit" className="button" />
           </form>
         </div>
       </section>
