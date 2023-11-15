@@ -82,3 +82,14 @@ textarea {
   max-width: 300px;
   margin-bottom: 20px;
 }
+
+.contact-links {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 600;
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+}

@@ -15,6 +15,7 @@ import img3 from './assets/image/item3.jpg';
 import img4 from './assets/image/item4.jpg';
 import img5 from './assets/image/item5.jpg';
 import img6 from './assets/image/item6.jpg';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const productItems = [
@@ -66,6 +67,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainPage productItems={productItems} />} />
         <Route

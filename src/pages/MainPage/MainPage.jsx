@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import logo from '../../assets/image/logo.svg';
 
 import storyImage from '../../assets/image/toa-heftiba-GLl6_-L3fxM-unsplash.jpg';
@@ -87,9 +87,9 @@ const MainPage = ({ productItems }) => {
           </p>
           <p>With us, beauty will find its true home.</p>
           <div className="button_wrap">
-            <a className="button_shop" href="#">
+            <Link className="button_shop" to="/about">
               Read More
-            </a>
+            </Link>
           </div>
         </div>
       </section>

@@ -17,14 +17,21 @@ const Contact = () => {
             <img src={linkImage1} alt="" />
             <div>
               <h6>VISIT US</h6>
-              <p>77 Shevchenko St., Kyiv, 38053, Ukraine</p>
+              <a
+                className="contact-links"
+                href="https://maps.app.goo.gl/8fKfpkud1EQpyq9o8"
+                target="_blanc">
+                77 Shevchenko St., Kyiv, 38053, Ukraine
+              </a>
             </div>
           </div>
           <div>
             <img src={linkImage2} alt="" />
             <div>
               <h6>CALL US</h6>
-              <p>+380 97 555 7777</p>
+              <a className="contact-links" href="tel:+380975557777">
+                +380 97 555 7777
+              </a>
             </div>
           </div>
 
@@ -32,7 +39,9 @@ const Contact = () => {
             <img src={linkImage3} alt="" />
             <div>
               <h6>EMAIL US</h6>
-              <p>mail@example.com</p>
+              <a className="contact-links" href="mailto:mail@example.com" target="_blanc">
+                mail@example.com
+              </a>
             </div>
           </div>
         </div>

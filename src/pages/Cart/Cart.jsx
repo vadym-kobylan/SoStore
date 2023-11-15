@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../../components/Header';
-import image1 from '../../assets/image/item1.jpg';
 import './Cart.css';
 import CartItem from './CartItem';
 
@@ -49,12 +48,12 @@ const Cart = ({ cartItems, setCartItems }) => {
               <div className="checkout">
                 <div className="total">
                   <div>
-                    <div className="Subtotal">Sub-Total</div>
+                    <div className="subtotal">Sub-Total</div>
                     <div className="items">{totalQuantity}</div>
                   </div>
                   <div className="total-amount">${totalPrice.toFixed(2)}</div>
                 </div>
-                <button className="button">Checkout</button>
+                <button className="button submit">Checkout</button>
               </div>
             </>
           ) : (
